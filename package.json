@@ -1,0 +1,32 @@
+{
+  "name": "bd-assignment-6",
+  "version": "1.0.0",
+  "description": "Assignment 6 – Data cleaning ",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GautamGadipudi/bd-assignment-6.git"
+  },
+  "keywords": [
+    "Data",
+    "Cleaning",
+    "Big",
+    "Data",
+    "MongoDB",
+    "RIT",
+    "CSCI-620"
+  ],
+  "author": "Gautam Gadipudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GautamGadipudi/bd-assignment-6/issues"
+  },
+  "homepage": "https://github.com/GautamGadipudi/bd-assignment-6#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.5"
+  }
+}
