@@ -6,7 +6,7 @@ Data cleaning assingnment of Big Data.
 * npm v6.x.x
 * NodeJS v12.x.x
 
-## Test if connection to MongoDB is successful
+## Test if connection to MongoDB is successful - Will work only if MongoDB is running locally on port 27017
 * Open a terminal in the root of the repo.
 * Execute the following:
 ```bash
