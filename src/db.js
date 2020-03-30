@@ -15,13 +15,13 @@ const updateDocs = (docs, callback) => {
                 obj = _.pickBy(obj);
                 obj2 = {}
                 if (obj.cost) 
-                    obj2.cost = parseInt(obj.cost.value)
+                    obj2.cost = parseFloat(obj.cost.value)
                 if (obj.box_office_currencyLabel)
                     obj2.currency = obj.box_office_currencyLabel.value
                 if (obj.distributorLabel)
                     obj2.distributor = obj.distributorLabel.value
                 if (obj.box_office)
-                    obj2.revenue = parseInt(obj.box_office.value)
+                    obj2.revenue = parseFloat(obj.box_office.value)
                 if (obj.MPAA_film_ratingLabel)
                     obj2.MPAA_film_rating = obj.MPAA_film_ratingLabel.value
 
