@@ -5,7 +5,8 @@
   "main": "./src/app.js",
   "scripts": {
     "test": "node ./tests/test.js",
-    "start": "node ./src/app.js"
+    "q2": "node ./src/q2.js",
+    "q3": "node ./src/q3.js --unhandled-rejections=strict"
   },
   "repository": {
     "type": "git",
