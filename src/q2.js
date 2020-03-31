@@ -9,7 +9,7 @@ getData('./data/extra-data.json', (data) => {
         return item.IMDb_ID
     })
     console.log(`Filtered ${x.length} rows.`); 
-    updateDocsUsingId(x, 'movies', (err, result) => {
+    updateDocsUsingId(x, 'movies2', (err, result) => {
         if (!err) {
             console.log(result);
             process.exit(0)
