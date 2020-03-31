@@ -6,7 +6,9 @@ For Q2 and Q3:
 * MongoDB v4.x.x
 * npm v6.x.x
 * NodeJS v12.x.x
+
 For Q4:
+* pip v20.x.x
 * Python v3.x.x
 
 ## Test if connection to MongoDB is successful - Will work only if MongoDB is running locally on port 27017
@@ -49,6 +51,11 @@ Also a few important points:
 * It is possible that the `title` in `movies` collection is different that the ones in file for a particular `IMDb_ID.value`.
 * It is also possible that there is no `IMDb_ID.value` for few rows. In that case we have to match using `titleLabel.value`.
 
+Before running Q2 and Q3, please run the following:
+```bash
+npm install
+```
+
 ## Q2: Update movies with extra-data using _id
 Make sure you have the extracted data in ```./data/extra-data.json```
 Also, to make sure there is distinction in data updated in q2 and q3, I have used collection `movies2` to update in q2. Therefore, you need to have `movies` data in `movies2` collection.
@@ -68,6 +75,10 @@ npm run-script q3
 ```
 
 ## Q4: Data visualizations
+First of all, run the following
+```bash
+pip install pymongo matplotlib numpy
+```
 Question 4.1 - Run the following in root of repo to get the below graph.
 ```bash
 python3 ./q4/q4_1.py
